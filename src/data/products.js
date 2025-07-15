@@ -1,23 +1,38 @@
+// src/data/products.js
 export const products = [
     {
         id: 1,
-        name: "Hammer",
-        category: "Tools",
-        price: 1200,
-        image: "https://via.placeholder.com/200x150.png?text=Hammer",
+        name: 'Electric Drill Machine',
+        price: 120.00,
+        image: '/product1.jpg',
+        category: 'power-tools'
     },
     {
         id: 2,
-        name: "Screwdriver Set",
-        category: "Tools",
-        price: 950,
-        image: "https://via.placeholder.com/200x150.png?text=Screwdriver",
+        name: 'Hammer Tool Kit',
+        price: 45.50,
+        image: '/product2.jpg',
+        category: 'hand-tools'
     },
     {
         id: 3,
-        name: "Wall Plug Pack",
-        category: "Accessories",
-        price: 500,
-        image: "https://via.placeholder.com/200x150.png?text=Wall+Plug",
+        name: 'Cordless Screwdriver',
+        price: 75.00,
+        image: '/product3.jpg',
+        category: 'power-tools'
     },
+    {
+        id: 4,
+        name: 'Heavy Duty Saw',
+        price: 200.00,
+        image: '/product4.jpg',
+        category: 'power-tools'
+    },
+    {
+        id: 5,
+        name: 'Measuring Tape',
+        price: 15.99,
+        image: '/products.jpg',
+        category: 'hand-tools'
+    }
 ];

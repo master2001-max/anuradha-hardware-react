@@ -2,12 +2,11 @@ import React from 'react';
 
 export default function ProductCard({ product }) {
     return (
-        <div className="bg-white rounded shadow hover:shadow-lg transition p-4">
-            <img src={product.image} alt={product.name} className="w-full h-40 object-cover rounded mb-2" />
-            <h3 className="text-lg font-semibold">{product.name}</h3>
-            <p className="text-gray-500">{product.category}</p>
-            <p className="text-blue-600 font-bold mt-2">Rs. {product.price}</p>
-            <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
+        <div className="bg-white rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300 p-4 flex flex-col">
+            <img src={product.image} alt={product.name} className="rounded-xl mb-4 w-full h-48 object-cover" />
+            <h3 className="text-xl font-semibold">{product.name}</h3>
+            <p className="text-primary font-bold text-lg mt-2">${product.price}</p>
+            <button className="mt-auto bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary-dark transition">
                 Add to Cart
             </button>
         </div>
